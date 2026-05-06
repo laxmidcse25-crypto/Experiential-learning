@@ -1,70 +1,104 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<link rel="stylesheet" href="style.css">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Us - Consulting Firm</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Link CSS -->
+<link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="pink">
 
-<h1>Contact Us</h1>
+<body>
 
-<h2>Get in Touch</h2>
-<p><strong>Phone:</strong> +91 9370240821</p>
-<p><strong>Email:</strong> laxmid.cse25@sbjit.com</p>
-<p><strong>Office Address:</strong> Hingna Road, Wanadongri, Nagpur, Maharashtra, 441110 </p>
+<header>
+    <h1>Contact Our Consulting Team</h1>
+    <p>We’re ready to help your business grow</p>
+</header>
 
-<h2>Location</h2>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.942789504347!2d79.0012461302492!3d21.11063309136023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c07495e50567%3A0x8c629f2d92b69b17!2sHingna%20Rd%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1775386919479!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section>
+    <h2>Get in Touch</h2>
+    <div class="contact-container">
+        
+        <div class="contact-box">
+            <h3>Phone</h3>
+            <p>+91 9370240821</p>
+            <p>Mon–Fri: 9 AM – 8 PM</p>
+        </div>
 
-<h2>Send Us an Inquiry</h2>
-<form>
-<label>Full Name:</label><br>
-<input type="text" required><br><br>
+        <div class="contact-box">
+            <h3>Email</h3>
+            <p>laxmidube35@gmail.com</p>
+            <p>dubelaxmi891@gmail.com</p>
+        </div>
 
-<label>Email Address:</label><br>
-<input type="email" required><br><br>
+        <div class="contact-box">
+            <h3>Office</h3>
+            <p>Wanadongri, Hingna Road</p>
+            <p>Nagpur, Maharashtra, India.</p>
+        </div>
 
-<label>Phone Number:</label><br>
-<input type="tel" required><br><br>
+    </div>
+</section>
 
-<label for="service">Service of Interest:</label><br>
-<select id="service" required>
-<option value="">-- Select a Service --</option>
-<option>Business Consulting</option>
-<option>Financial Advisory</option>
-<option>IT Consulting</option>
-<option>Marketing Strategy</option>
-<option>Human Resources</option>
-</select><br><br>
+<section>
+    <h2>Our Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.942789504347!2d79.0012461302492!3d21.11063309136023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c07495e50567%3A0x8c629f2d92b69b17!2sHingna%20Rd%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1775386919479!5m2!1sen!2sin"></iframe>
+</section>
 
-<label>Your Message:</label><br>
-<textarea rows="5"></textarea><br><br>
+<section>
+    <h2>Send an Inquiry</h2>
 
-<button type="submit">Submit</button>
-</form>
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
 
-<h2>Frequently Asked Questions</h2>
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required>
 
-<details>
-<summary>What services do you offer?</summary>
-<p>We offer business consulting, financial advisory, IT consulting, and more.</p>
-</details>
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number">
 
-<details>
-<summary>How can I schedule a consultation?</summary>
-<p>You can fill out the inquiry form or contact us via phone or email.</p>
-</details>
+        <label>Service of Interest</label>
+        <select required>
+            <option value="">-- Select Service --</option>
+            <option>Business Strategy Consulting</option>
+            <option>Financial Advisory</option>
+            <option>IT Consulting</option>
+            <option>Market Research</option>
+            <option>Human Resource Consulting</option>
+        </select>
 
-<details>
-<summary>Do you provide online consultations?</summary>
-<p>Yes, we provide both online and in-person consultation services.</p>
-</details>
+        <label>Your Message</label>
+        <textarea rows="5" placeholder="Write your message..." required></textarea>
 
-<details>
-<summary>What are your working hours?</summary>
-<p>We are available Monday to Friday, 9 AM to 6 PM.</p>
-</details>
+        <button type="submit">Submit Inquiry</button>
+    </form>
+</section>
+
+<section>
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+        <summary>What services do you provide?</summary>
+        <p>We offer strategy consulting, IT solutions, financial advisory, and HR consulting.</p>
+    </details>
+
+    <details>
+        <summary>How quickly will you respond?</summary>
+        <p>We usually respond within 24 hours.</p>
+    </details>
+
+    <details>
+        <summary>Do you offer customized solutions?</summary>
+        <p>Yes, all our consulting services are tailored to client needs.</p>
+    </details>
+
+    <details>
+        <summary>Is the first consultation free?</summary>
+        <p>Yes, we provide a free initial consultation.</p>
+    </details>
+
+</section>
 
 </body>
 </html>
