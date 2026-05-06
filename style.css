@@ -59,7 +59,7 @@ form input, form select, form textarea {
 }
 
 button {
-    background:green;
+    background: green;
     color: white;
     border: none;
     padding: 12px;
@@ -70,7 +70,6 @@ button {
 button:hover {
     background: blue;
 }
-
 
 details {
     margin: 10px 0;
